@@ -4,12 +4,128 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-
-  <title>On Punctation</title>
-</head>
-<body>
+    
     
 
+                <!--ARABIC FONT-->
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@700&display=swap" rel="stylesheet">
+      
+     
+                    <!------->
+ 
+
+        <link rel="stylesheet" href="style.css">
+        <title>On Punctuation</title>
+</head>
+    
+    
+<body>
+    
+    
+   <p>On Punctuation</p>
+    
+
+    
+
+<div class="btn-pun">
+  <button class="button">,</button>
+  <button class="button">;</button>
+  <button class="button">?</button>
+</div>
+
+<div class="btn-lan">
+  <button class="arbtn" onclick="myMove()">عربي</button>
+  <button class="button">English</button>
+</div>
+
+
+<div id ="myContainer"> 
+<div id ="myAnimation">?</div>
+</div>
+
+
+<script>
+var id = null;
+function myMove() {
+  var elem = document.getElementById("myAnimation");   
+  var pos = 0;
+  clearInterval(id);
+  id = setInterval(frame, 10);
+  function frame() {
+    if (pos == 350) {
+      clearInterval(id);
+    } else {
+      pos++; 
+      elem.style.top = pos + 'px'; 
+      elem.style.left = pos + 'px'; 
+    }
+  }
+}
+</script>
+
+         <!--COMMA-->
+    
+<!--    <div class="en-comma">
+        <h3>,</h3>
+    </div>
+    
+    
+    <div class="ar-comma">
+        <h3>،</h3>
+    </div>
+    -->
+    
+      <!--SEMICOLON-->
+    <!--
+    <div class="en-semic">
+        <h3>;</h3>
+    </div>
+    
+    
+    <div class="ar-semic">
+        <h3>؛</h3>
+    </div>
+    -->
+    
+     <!--QUESTION MARK-->
+    
+<!--    
+    <div class="en-q">
+        <h3>?</h3>
+    </div>
+    
+    
+    <div class="ar-q">
+        <h3>؟</h3>
+    </div>
+    
+    
+    -->
+    <!--
+    	<table>
+			<thead>
+				<tr>
+					<th class="ar-sem">؛</th>
+					<th class="en-sem">;</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="ar-comma">،</td>
+					<td class="en-comma">,</td>
+				</tr>
+			</tbody>
+            
+			<tbody>
+				<tr>
+					<td class="ar-q">؟</td>
+					<td class="en-q">?</td>
+				</tr>
+			</tbody>
+		</table>-->
 </body>
 </html>
