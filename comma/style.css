@@ -1,0 +1,15 @@
+.rot {
+  transition: transform .7s ease-in-out;
+    margin: inherit;
+}
+.rot:hover {
+  transform: rotate(180deg);
+}
+
+
+.rot {
+text-align: center;
+    font-family: futura;
+    font-size: 25px;
+    padding-top: 70px;
+}

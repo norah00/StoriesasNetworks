@@ -1,7 +1,14 @@
- body {
+ @media screen and (min-width: 80rem) {
+  .container {
+    margin: 1em 2em;
+  }
+}
+
+
+body {
 margin: 50px;
-background-color: antiquewhite;
-    color: black;
+background-color: black;
+    color: white;
      
 }
 
@@ -15,12 +22,25 @@ text-align: center;
 }
 
 
+#myDIV {
+  width: 1px;
+  height: 1px;
+/*
+  background-color: coral;
+*/
+  color: white;
+}
 
 
-.btn-pun .button{
-  background-color: antiquewhite;
+.sem {
+    font-size: 200px;
+    font-family: futrua;
+}
+
+.button {
+  background-color: black;
   border: none;
-  color: black;
+  color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -29,92 +49,20 @@ text-align: center;
   cursor: pointer;
   float: left;
     font-family: futura;
-    
-}
 
-.btn-pun .button:hover {
-  background-color: blanchedalmond;
 }
 
 
-
-.arbtn {
-    font-family: 'Tajawal', sans-serif;
-      background-color: antiquewhite; 
-  border: none;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 25px;
-  cursor: pointer;
-  float: right;
-    
-}
-
-.btn-lan .button {
-  background-color: antiquewhite; 
-  border: none;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 25px;
-  cursor: pointer;
-  float: right;
-    font-family: futura;
-    
-    
-}
-
- .btn-lan .button .arbtn:hover {
-  background-color: blanchedalmond;
-}
-
-
-
-.tran {
-  width: 500px;
-/*  background: red;*/
-font-size:100px;
-
-animation: questionArabic 2s;
-/*  transition: width 2s, height 2s, transform 2s;*/
-}
-
-#myContainer {
-  width: 400px;
-  height: 400px;
-  position: relative;
-    
 /*
-  background: yellow;
-*/
-}
-#myAnimation {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-font-size: 70px;
-    font-family: 'Tajawal', sans-serif;
 
+.rotate:hover {
+    transform: rotate(190deg); 
 }
-/*
-.tran:hover {
-  width: 300px;
-  height: 300px;
-  transform: rotate(180deg);
-}
-*/
 
-
-@keyframes questionArabic {
-    0%{
-    transform: rotate(0);
-    }
-    100% {
-    transform: rotate(.25turn);
-    }
-}
+div.rotate {
+    width: 0px;
+    height: 0px;
+    
+    font-size: 100px;
+    background-color: chocolate;
+}*/
