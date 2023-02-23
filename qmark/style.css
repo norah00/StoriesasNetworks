@@ -1,154 +1,76 @@
 body {
-margin: 50px;
+    position: fixed;
+    margin: fixed;
 background-color: antiquewhite;
     color: black;
-     
-}
-@import url('https://fonts.googleapis.com/css?family=Anton|Roboto');
-
-.word {
-  font-family: 'Anton', sans-serif;
-  perspective: 1000px; 
-}
-
-.word span {
-  cursor: pointer;
-  display: inline-block;
-  font-size: 100px;
-  user-select: none;
-  line-height: .8;
-}
-
 /*
-
-p {
-text-align: center;
-    font-family: futura;
-    font-size: 25px;
-    padding-top: 70px;
-}
+     padding: 200px;
 */
 
-
-
-
-.arbtn {
-    font-family: 'Tajawal', sans-serif;
-      background-color: antiquewhite; 
-  border: none;
-  color: black;
-    margin-top: 300px;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 50px;
-  cursor: pointer;
-  float: right;
-    
-}
-
-.btn-lan .button {
-  background-color: antiquewhite; 
-  border: none;
-  color: black;
-        margin-top: 300px;
-
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 50px;
-  cursor: pointer;
-  float: left;
-    font-family: futura;
-    
-    
-}
-
- .btn-lan .button .arbtn:hover {
-  background-color: blanchedalmond;
 }
 
 
-
-.tran {
-  width: 500px;
-/*  background: red;*/
-font-size:100px;
-
-animation: questionArabic 2s;
-/*  transition: width 2s, height 2s, transform 2s;*/
-}
+#qmark {
 /*
-#myContainer {
-  width: 400px;
-  height: 400px;
-  position: relative*/;
-    
-/*
-  background: yellow;
+  width: 100px;
 */
-}
-#myAnimation {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-font-size: 70px;
-    font-family: 'Tajawal', sans-serif;
+  font:  monospace;
+  cursor: pointer;
+    font-size: 500px;
+    font-family: 'Source Sans Pro', sans-serif;
+float: right;}
 
-}
+#eng {
 /*
-.tran:hover {
-  width: 300px;
-  height: 300px;
-  transform: rotate(180deg);
-}
+  width: 100px;
 */
-
-.ball {
-  border-radius: 25px;
-  width: 50px;
-  height: 50px;
-  position: rotate;
-  top: 0;
-  left: 0;
-  transition: transform 1s;
-    
-  font-size: 70px;
-  font-family: 'Tajawal', sans-serif;
-    
+  cursor: pointer;
+    font-size: 500px;
+    font-family: 'Source Sans Pro', sans-serif;
+    float: left;
+    padding: 20px;
+    position:static;
 }
 
-@keyframes spin {
-  0% {
-    transform: rotateY(0deg);
-  }
-  100% {
-    transform: rotateY(-360deg);
-  }
+
+#ar {
+/*
+  width: 100px;
+*/
+  cursor: pointer;
+    font-size: 500px;
+    font-family: 'Source Sans Pro', sans-serif;
+    float: right;
+    padding: 20px;
+    position:static;
 }
 
-.word span:nth-child(4).active {
-  animation: rotate 1s ease-out;
-}
-
-@keyframes rotate {
-  20%, 80% {
-    transform: rotateY(180deg);
-  }
+#qmark {
+  display: inline-block
   
-  100% {
-    transform: rotateY(360deg);
-  }
+}
+
+#qmark.animate {
+  transform: scaleX(-1) translate(120%);
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
 }
 
 
-@keyframes questionArabic {
-    0%{
-    transform: rotate(0);
-    }
-    100% {
-    transform: rotate(.25turn);
-    }
+
+#eng.animate {
+  transform: translate(-100%);
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+
+
+#ar.animate {
+  transform: scaleX(-200);
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
 }

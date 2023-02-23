@@ -1,15 +1,80 @@
-.rot {
+@media screen and (min-width: 80rem) {
+  .container {
+    margin: 1em 2em;
+  }
+}
+.container {
+  column-count: 3;
+}
+body {
+    margin: 140px;
+    padding: inherit;
+background-color: #CCC7C6;
+    color:  #7A7373;
+
+}
+
+
+
+div {
   transition: transform .7s ease-in-out;
-    margin: inherit;
+    padding-right: 700px; 
+        padding-left: 700px; 
+    
+
+
 }
-.rot:hover {
-  transform: rotate(180deg);
+div:hover {
+  transform: rotateZ(-180deg);
+  
 }
 
 
-.rot {
-text-align: center;
-    font-family: futura;
-    font-size: 25px;
-    padding-top: 70px;
+h1
+{
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.pa {
+        font-family: 'Source Sans Pro', sans-serif;
+font-weight: 500;
+    font-size: 20px;
+    color: black;
+}
+.eng {
+font-family: 'Source Sans Pro', sans-serif;
+
+font-size: 100px;
+    float:inherit;
+}
+p {
+    color: black;
+}
+
+.co {
+        transform : rotate(-180deg); 
+
+    font-family: 'Source Sans Pro', sans-serif;
+        font-size: 70px;
+    
+
+
+}
+.ar {
+    
+    font-family: 'Changa', sans-serif;
+    float: inherit;
+    font-size: 100px;
+    transform : rotate(-180deg); 
+
+
+}
+
+
+
+img {
+    width: 30px;
+    height: auto;
+    float:inherit;
 }
