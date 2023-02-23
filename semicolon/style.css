@@ -13,51 +13,57 @@ background-color: #CCC7C6;
     color:  #7A7373;
 
 }
-
+div {
+    
+}
 
 .com {
   transition: transform .7s ease-in-out;
-    
-
+    font-size: 130px;
+font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+    padding-top: 45px;
+    font-weight: 800;
 
 }
 .com:hover {
-    transform: rotate(-180deg);
+    transform: rotateZ(-170deg);
 }
 
 .eng {
 font-family: 'Source Sans Pro', sans-serif;
-
-font-size: 70px;
+float: left;
+font-size: 80px;
+    padding-top: 30px;
+    font-weight: 800;
     }
-
 
 
 .ar {
     
     font-family: 'Changa', sans-serif;
-    float: inherit;
-    font-size: 100px;
-    transform : rotate(-180deg); 
-
-
-}
-
-.ar {
-    font-family: Changa, sans-serif;
     float: right;
-    font-size: 70px;
+    font-size: 80px;
+    font-weight: 800;
+
+
 }
+
 
 h1
 {
+    padding-top: 130px;
     font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    font-weight: 700;
+
 
 }
 
-.pa {
-        font-family: 'Source Sans Pro', sans-serif;
-font-weight: 100;
+h2{
+    font-family: 'Source Sans Pro', sans-serif;
+font-weight: 500;
     font-size: 20px;
     color: black;
+    text-align: center;
 }
