@@ -79,3 +79,36 @@ font-weight: 200;
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
 }
+
+
+ a
+{
+    
+    font-family: 'Source Sans Pro', sans-serif;
+font-size: 20px;
+font-weight: 600;
+        color: #7A7373;
+    padding-bottom: 100px;
+    float: right;
+}
+
+a:link {
+  color:  #7A7373;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color:  #7A7373;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color:black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color:black;
+  background-color: transparent;
+  text-decoration: underline;
+}

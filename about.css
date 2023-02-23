@@ -39,5 +39,35 @@ p {
 color:black;
     padding-top: 30px;
     font-size: 17px;
-    padding-bottom: 80px;
+    padding-bottom: 20px;
+}
+ a
+{
+    
+    font-family: 'Source Sans Pro', sans-serif;
+font-size: 20px;
+font-weight: 600;
+        color: #7A7373;
+    padding-bottom: 100px;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: rgba(34, 18, 16, 0.4);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color:black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color:black;
+  background-color: transparent;
+  text-decoration: underline;
 }
