@@ -7,7 +7,7 @@
   column-count: 3;
 }
 body {
-    margin: 140px;
+    margin: 100px;
     padding: inherit;
 background-color: #CCC7C6;
     color:  #7A7373;
@@ -18,10 +18,15 @@ background-color: #CCC7C6;
 
 div {
   transition: transform .7s ease-in-out;
-    padding-right: 700px; 
-        padding-left: 700px; 
+    padding-right: 800px; 
+        padding-left: 300px; 
     
 
+
+}
+.caca {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
 
 }
 div:hover {
@@ -33,7 +38,7 @@ div:hover {
 h1
 {
     font-family: 'Source Sans Pro', sans-serif;
-
+font-weight: 400;
 }
 
 .pa {
@@ -86,7 +91,7 @@ img {
 }
 
 
- a
+ .se
 {
     
     font-family: 'Source Sans Pro', sans-serif;
@@ -95,6 +100,16 @@ font-weight: 600;
         color: #7A7373;
     padding-bottom: 100px;
     float: right;
+}
+
+.on {
+    
+    font-family: 'Source Sans Pro', sans-serif;
+font-size: 20px;
+font-weight: 600;
+        color: #7A7373;
+    padding-bottom: 100px;
+    float: left;
 }
 
 a:link {
@@ -115,5 +130,5 @@ a:hover {
 a:active {
   color:black;
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
 }

@@ -42,15 +42,15 @@ a:hover {
   text-decoration: none;
 }
 a:active {
-  color:whitesmoke;
+  color:#BCB4B3;
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .coom {
     
 font-family: 'Source Sans Pro', sans-serif;
 font-size: 25px;
-    padding-top: 580px;
+    padding-top: 578px;
         color: rgba(34, 18, 16, 0.4);
 float: right;
     margin-left: 1290px;

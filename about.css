@@ -20,26 +20,41 @@ background-color:#BCB4B3;
 h1 {
 
 font-family: 'Source Sans Pro', sans-serif;
-font-size: 30px;
+font-size: 40px;
     margin-right: 30px;
 text-align: left;    padding-top: 100px;
     color: #7A7373;
-
+font-weight: 700;
 }
 
 h2{
     font-family: 'Source Sans Pro', sans-serif;
+font-size: 30px;
+font-weight: 500;
+        color: #7A7373;
+position:inherit;
+}
+
+h3{
+    font-family: 'Source Sans Pro', sans-serif;
 font-size: 20px;
-font-weight: 200;
+font-weight: 500;
         color: #7A7373;
 
+}
+
+.by
+{
+    font-weight: 100;
+    
 }
 p {
     font-family: 'Source Sans Pro', sans-serif;
 color:black;
     padding-top: 30px;
-    font-size: 17px;
+    font-size: 21px;
     padding-bottom: 20px;
+    bor
 }
  a
 {
@@ -52,12 +67,12 @@ font-weight: 600;
 }
 
 a:link {
-  color: black;
+  color: #7A7373;
   background-color: transparent;
   text-decoration: none;
 }
 a:visited {
-  color: rgba(34, 18, 16, 0.4);
+  color: #7A7373;
   background-color: transparent;
   text-decoration: none;
 }
@@ -69,5 +84,5 @@ a:hover {
 a:active {
   color:black;
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
 }
