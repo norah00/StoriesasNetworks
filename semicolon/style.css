@@ -19,11 +19,11 @@ div {
 
 .com {
   transition: transform .7s ease-in-out;
-    font-size: 130px;
+    font-size: 120px;
 font-family: 'Source Sans Pro', sans-serif;
     color: black;
     padding-top: 45px;
-    font-weight: 800;
+    font-weight: 700;
 
 }
 .com:hover {
@@ -35,7 +35,7 @@ font-family: 'Source Sans Pro', sans-serif;
 float: left;
 font-size: 80px;
     padding-top: 30px;
-    font-weight: 800;
+    font-weight: 700;
     }
 
 
@@ -44,12 +44,48 @@ font-size: 80px;
     font-family: 'Changa', sans-serif;
     float: right;
     font-size: 80px;
-    font-weight: 800;
+    font-weight: 700;
 
 
 }
 
 
+.fo
+{
+padding-top: 40px;}
+
+.cu
+{
+    font-family: 'Source Sans Pro', sans-serif;
+font-weight: 700;
+text-align: center;} 
+
+.pa {
+        font-family: 'Source Sans Pro', sans-serif;
+font-weight: 500;
+    font-size: 18px;
+    color: black;
+}
+ .se
+{
+    
+    font-family: 'Source Sans Pro', sans-serif;
+font-size: 20px;
+font-weight: 600;
+        color: #7A7373;
+    padding-bottom: 100px;
+    float: right;
+}
+
+.on {
+    
+    font-family: 'Source Sans Pro', sans-serif;
+font-size: 20px;
+font-weight: 600;
+        color: #7A7373;
+    padding-bottom: 100px;
+    float: left;
+}
 h1
 {
     padding-top: 130px;
@@ -62,7 +98,7 @@ h1
 
 h2{
     font-family: 'Source Sans Pro', sans-serif;
-font-weight: 500;
+font-weight: 700;
     font-size: 20px;
     color: black;
     text-align: center;
