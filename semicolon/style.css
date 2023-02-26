@@ -7,7 +7,7 @@
   column-count: 3;
 }
 body {
-    margin: 90px;
+    margin: 100px;
     padding: inherit;
 background-color: #CCC7C6;
     color:  #7A7373;
@@ -16,7 +16,6 @@ background-color: #CCC7C6;
 div {
     
 }
-
 .com {
   transition: transform .7s ease-in-out;
     font-size: 120px;
@@ -24,7 +23,6 @@ font-family: 'Source Sans Pro', sans-serif;
     color: black;
     padding-top: 45px;
     font-weight: 700;
-
 }
 .com:hover {
     transform: rotateZ(-170deg);
@@ -52,7 +50,7 @@ font-size: 80px;
 
 .fo
 {
-padding-top: 40px;}
+padding-top: 70px;}
 
 .cu
 {
